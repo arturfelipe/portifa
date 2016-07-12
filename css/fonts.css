@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HaasGrotDisp-65Medium';
+    src: url('../fonts/HaasGrotDisp-65Medium/HaasGrotDisp-65Medium.eot');
+    src: url('../fonts/HaasGrotDisp-65Medium/HaasGrotDisp-65Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HaasGrotDisp-65Medium/HaasGrotDisp-65Medium.woff') format('woff'),
+         url('../fonts/HaasGrotDisp-65Medium/HaasGrotDisp-65Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
