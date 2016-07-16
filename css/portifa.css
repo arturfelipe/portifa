@@ -148,7 +148,7 @@ ul, li {
 }
 
 .rb-portfolio__title {
-  width: 75%;
+  width: 76%;
   font-family: 'HaasGrotDisp-65Medium';
   font-size: 6.25em;
   line-height: 0.87;
@@ -161,7 +161,7 @@ ul, li {
 }
 
 .rb-portfolio__content {
-  width: 75%;
+  width: 76%;
   margin-bottom: 50px;
 }
 
@@ -202,5 +202,25 @@ ul, li {
 }
 
 .portfolio-secure {
+  background-color: #1E5072;
+}
+
+.portfolio-materia {
+  background-color: #242424;
+}
+
+.portfolio-materia .rb-portfolio__title {
+  width: 85%;
+}
+
+.portfolio-eleicao {
+  background-color: #1E5072;
+}
+
+.portfolio-ge {
+  background-color: #1E5072;
+}
+
+.portfolio-about {
   background-color: #1E5072;
 }
