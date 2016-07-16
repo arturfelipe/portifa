@@ -205,11 +205,11 @@ ul, li {
   background-color: #1E5072;
 }
 
-.portfolio-materia {
+.portfolio-multicontent {
   background-color: #242424;
 }
 
-.portfolio-materia .rb-portfolio__title {
+.portfolio-multicontent .rb-portfolio__title {
   width: 85%;
 }
 
@@ -218,7 +218,7 @@ ul, li {
 }
 
 .portfolio-ge {
-  background-color: #1E5072;
+  background-color: #278300;
 }
 
 .portfolio-about {
