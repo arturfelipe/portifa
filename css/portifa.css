@@ -56,9 +56,8 @@ ul, li {
   position: relative;
 }
 
-.slide {
-  /*opacity: 0.12;
-  mix-blend-mode: soft-light;*/
+.section {
+  mix-blend-mode: soft-light;
 }
 
 .slide-home {
@@ -68,12 +67,15 @@ ul, li {
   background-position: center;
 }
 
-.slide-home .rb-title {
+.rb-title {
   font-family: 'HaasGrotDisp-65Medium';
   font-size: 136px;
   line-height: 0.96;
   letter-spacing: -4.5px;
   font-weight: 100;
+}
+
+.slide-home .rb-title {
   padding-top: 25%;
 }
 
@@ -222,5 +224,85 @@ ul, li {
 }
 
 .portfolio-about {
-  background-color: #1E5072;
+  background-color: #404042;
+}
+
+.portfolio-about .column-left {
+  width: 45%;
+}
+
+.portfolio-about .column-right {
+  width: 55%;
+}
+
+.portfolio-about .rb-title {
+  font-size: 100px;
+  line-height: 0.85;
+  margin-bottom: 145px;
+}
+
+.portfolio-about .rb-bullet {
+  line-height: 0.60em;
+}
+
+.rb-about {
+  padding-top: 210px;
+}
+
+.rb-profile {
+  width: 70%;
+  line-height: 1.70;
+}
+
+.rb-profile__photo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.rb-interest {
+  overflow: hidden;
+  clear: both;
+}
+
+.rb-interest__photo {
+  float: left;
+  width: 46%;
+  line-height: 0;
+}
+
+.rb-interest__photo::after {
+  content: "";
+  border-bottom: 1px solid #6f6f70;
+  display: block;
+  width: 93%;
+  margin-bottom: 1px;
+}
+
+.rb-interest:last-child .rb-interest__photo::after {
+  display: none;
+}
+
+.rb-interest__number {
+  float: left;
+  width: 9%;
+  font: 4.12em 'HaasGrotDisp-65Medium';
+  line-height: 0.9em;
+  padding-top: 18px;
+}
+
+.rb-interest__details {
+  padding-top: 19px;
+  float: right;
+  width: 45%;
+}
+
+.rb-interest__title {
+  color: #f5a623;
+  font: 1.62em 'HaasGrotDisp-65Medium';
+  margin-bottom: 0.2em;
+}
+
+.rb-interest__text {
+  font-size: 0.93em;
+  line-height: 1.40;
 }
