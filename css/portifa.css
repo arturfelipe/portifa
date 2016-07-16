@@ -48,6 +48,9 @@ ul, li {
 
 .slide-home {
   background-color: #414143;
+  background-image: url('../img/fundo-slide-home.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .slide-home .rb-title {
@@ -55,7 +58,7 @@ ul, li {
   font-size: 136px;
   line-height: 0.96;
   letter-spacing: -4.5px;
-  padding-top: 203px;
+  padding-top: 25%;
   font-weight: 100;
 }
 
