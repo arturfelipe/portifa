@@ -140,7 +140,6 @@ ul, li {
   font-style: italic;
   line-height: 1.09;
   letter-spacing: -0.5px;
-  color: #000000;
   margin-bottom: 35px;
 }
 
@@ -184,4 +183,12 @@ ul, li {
 
 .rb-portfolio__detail__value {
   float: left;
+}
+
+.portfolio-zamante {
+  background-color: #384A56;
+}
+
+.portfolio-zamante .rb-bullet {
+  margin-left: 7px;
 }
