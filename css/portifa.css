@@ -24,12 +24,19 @@ ul, li {
 }
 
 .column-4 {
-  width: 25%;
+  width: 21.73%;
   float: left;
+  min-height: 1px;
+}
+
+.column-1 {
+  width: 4.35%;
+  float: left;
+  min-height: 1px;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1380px;
   margin: 0 auto;
   position: relative;
 }
@@ -81,13 +88,8 @@ ul, li {
 }
 
 .rb-section-column {
-  margin-right: 60px;
   padding-top: 27px;
   border-top: 2px solid white;
-}
-
-.rb-baseline .column-4:last-child .rb-section-column {
-  margin-right: 0;
 }
 
 .rb-baseline {
@@ -101,4 +103,8 @@ ul, li {
   float: left;
   line-height: .9em;
   margin-right: 15px;
+}
+
+.rb-social-icon {
+  margin-right: 6px;
 }
