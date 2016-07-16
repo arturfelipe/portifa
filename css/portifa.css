@@ -95,3 +95,10 @@ ul, li {
   bottom: 84px;
   width: 100%;
 }
+
+.rb-number {
+  font: 92px 'HaasGrotDisp-15XXThin';
+  float: left;
+  line-height: .9em;
+  margin-right: 15px;
+}
