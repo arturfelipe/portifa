@@ -1,0 +1,27 @@
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  body {
+    font-size: .95em;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .rb-header {
+    top: 45px;
+  }
+
+  .rb-baseline {
+    bottom: 25px;
+  }
+
+  .rb-section-column {
+    padding-top: 16px;
+  }
+
+  .slide-home .rb-title {
+    font-size: 90px;
+    padding-top: 11%;
+    line-height: 0.94;
+  }
+}
