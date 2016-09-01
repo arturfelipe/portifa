@@ -94,9 +94,44 @@
     font-size: 30px;
     margin-left: -4px;
   }
-
 }
 
 @media only screen and (max-width: 640px) {
+  .column-left,
+  .column-right {
+    float: none;
+    width: 100%;
+  }
 
+  .column-left {
+    text-align: left;
+  }
+
+  .column-left img {
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .rb-portfolio__head {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .rb-portfolio__title {
+    width: 100%;
+    font-size: 2.7em;
+    letter-spacing: -2.5px;
+    padding-bottom: 25px;
+    margin-bottom: -25px;
+  }
+
+  .rb-bullet {
+    font-size: 30px;
+    margin-left: -3px;
+  }
+
+  .rb-portfolio__content,
+  .rb-portfolio__details {
+    display: none;
+  }
 }
