@@ -55,6 +55,45 @@
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1023px) {
+  .column-left img {
+    width: 80%;
+  }
+
+  .rb-portfolio__title {
+    width: 90%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 4.6em;
+    letter-spacing: -3.5px;
+  }
+
+  .rb-portfolio__content {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .rb-portfolio__head {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .rb-bullet {
+    font-size: 35px;
+  }
+
+  .portfolio-zamante .rb-bullet {
+    margin-left: 3px;
+  }
+
+  .portfolio-multicontent .rb-portfolio__title {
+    font-size: 3.7em;
+    letter-spacing: -2.8px;
+  }
+
+  .portfolio-multicontent .rb-bullet {
+    font-size: 30px;
+    margin-left: -4px;
+  }
 
 }
 
