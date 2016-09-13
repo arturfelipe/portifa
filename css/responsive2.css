@@ -108,21 +108,30 @@
   }
 
   .column-left img {
-    width: 45%;
-    margin-bottom: 15px;
+    /*width: 45%;
+    margin-bottom: 15px;*/
+    display: none;
+  }
+
+  .rb-portfolio {
+    vertical-align: bottom;
+    padding-bottom: 30px;
   }
 
   .rb-portfolio__head {
-    font-size: 16px;
+    /*font-size: 16px;*/
     margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: white;
   }
 
   .rb-portfolio__title {
     width: 100%;
-    font-size: 2.7em;
+    /*font-size: 2.7em;*/
     letter-spacing: -2.5px;
     padding-bottom: 25px;
-    margin-bottom: -25px;
+    margin-bottom: 0;
+    font-size: 3.8rem;
   }
 
   .rb-bullet {
@@ -133,5 +142,22 @@
   .rb-portfolio__content,
   .rb-portfolio__details {
     display: none;
+  }
+
+  .portfolio-g1 {
+    background-image: url('../img/mobile-fundo-g1.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .portfolio-g1 .rb-portfolio__title .rb-color-black {
+    color: #d72424;
+  }
+
+  .rb-portfolio__detail__label--smart {
+    display: block;
+    font: 1rem 'Playfair Display';
+    letter-spacing: -0.3px;
+    padding-top: 12px;
   }
 }

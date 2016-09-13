@@ -315,3 +315,7 @@ ul, li {
   font-size: 0.93em;
   line-height: 1.40;
 }
+
+.rb-portfolio__detail__label--smart {
+  display: none;
+}
