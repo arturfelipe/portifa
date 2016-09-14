@@ -29,6 +29,10 @@
     margin-left: 4px;
   }
 
+  .portfolio-multicontent .rb-portfolio__title {
+    width: 76%;
+  }
+
   .rb-portfolio__title {
     padding-bottom: 24px;
     margin-bottom: 24px;
@@ -101,6 +105,10 @@
   .portfolio-multicontent .rb-bullet {
     font-size: 30px;
     margin-left: -4px;
+  }
+
+  .portfolio-multicontent .rb-portfolio__title {
+    width: 76%;
   }
 }
 
@@ -195,6 +203,7 @@
 
   .portfolio-multicontent .rb-portfolio__title {
     font-size: 3.5rem;
+    width: 100%;
   }
 
   .portfolio-elections {
