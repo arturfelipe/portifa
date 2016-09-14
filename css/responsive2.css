@@ -108,8 +108,6 @@
   }
 
   .column-left img {
-    /*width: 45%;
-    margin-bottom: 15px;*/
     display: none;
   }
 
@@ -119,7 +117,6 @@
   }
 
   .rb-portfolio__head {
-    /*font-size: 16px;*/
     margin-bottom: 15px;
     font-size: 1.25rem;
     color: white;
@@ -127,7 +124,6 @@
 
   .rb-portfolio__title {
     width: 100%;
-    /*font-size: 2.7em;*/
     letter-spacing: -2.5px;
     padding-bottom: 25px;
     margin-bottom: 0;
@@ -144,14 +140,61 @@
     display: none;
   }
 
-  .portfolio-g1 {
-    background-image: url('../img/mobile-fundo-g1.png');
+  .section {
     background-size: cover;
     background-position: center;
   }
 
+  .portfolio-g1 {
+    background-image: url('../img/mobile-fundo-g1.png');
+  }
+
   .portfolio-g1 .rb-portfolio__title .rb-color-black {
     color: #d72424;
+  }
+
+  .portfolio-zamante {
+    background-image: url('../img/mobile-fundo-zamante.png');
+  }
+
+  .portfolio-zamante .rb-bullet {
+    margin-left: 2px;
+  }
+
+  .portfolio-talks {
+    background-image: url('../img/mobile-fundo-talks.png');
+  }
+
+  .portfolio-talks .rb-bullet {
+    margin-left: -5px;
+  }
+
+  .portfolio-secure {
+    background-image: url('../img/mobile-fundo-secure.png');
+  }
+
+  .portfolio-secure .rb-bullet {
+    margin-left: -5px;
+  }
+
+  .portfolio-secure .rb-portfolio__title {
+    font-size: 3.7rem;
+  }
+
+  .portfolio-multicontent {
+    background-image: url('../img/mobile-fundo-multicontent.png');
+  }
+
+  .portfolio-elections {
+    background-image: url('../img/mobile-fundo-elections.png');
+  }
+
+  .portfolio-elections .rb-portfolio__title .rb-color-black {
+    color: #d72424;
+  }
+
+  .portfolio-ge {
+    background-image: url('../img/mobile-fundo-ge.png');
   }
 
   .rb-portfolio__detail__label--smart {
@@ -159,5 +202,11 @@
     font: 1rem 'Playfair Display';
     letter-spacing: -0.3px;
     padding-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .portfolio-secure .rb-portfolio__title {
+    font-size: 3.2rem;
   }
 }
