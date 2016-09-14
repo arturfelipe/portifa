@@ -21,6 +21,14 @@
     top: 40px;
   }
 
+  .rb-bullet {
+    font-size: 35px;
+  }
+
+  .portfolio-zamante .rb-bullet {
+    margin-left: 4px;
+  }
+
   .rb-portfolio__title {
     padding-bottom: 24px;
     margin-bottom: 24px;
