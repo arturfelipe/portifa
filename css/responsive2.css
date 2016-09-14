@@ -185,6 +185,10 @@
     background-image: url('../img/mobile-fundo-multicontent.png');
   }
 
+  .portfolio-multicontent .rb-portfolio__title {
+    font-size: 3.5rem;
+  }
+
   .portfolio-elections {
     background-image: url('../img/mobile-fundo-elections.png');
   }
