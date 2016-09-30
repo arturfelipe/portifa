@@ -151,6 +151,17 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .hide-small {
+    display: none;
+  }
+  .slide-home .column-4 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .rb-title {
+    font-size: 7.00rem;
+  }
+
   .column-left,
   .column-right {
     float: none;
@@ -265,6 +276,17 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .hide-small {
+    display: none;
+  }
+  .slide-home .column-4 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .rb-title {
+    font-size: 7.00rem;
+  }
+  
   .portfolio-secure .rb-portfolio__title {
     font-size: 3.2rem;
   }

@@ -130,6 +130,11 @@ ul, li {
   background-repeat: no-repeat;
 }
 
+.rb-social-icon a {
+  color: white;
+  text-decoration: none;
+}
+
 .rb-social-icon--fb {
   background-image: url('../img/linkedin.svg');
 }
