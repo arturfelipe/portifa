@@ -9,13 +9,28 @@
 }
 
 .rb-title {
+  padding-bottom: 5%;
+
   display: table-cell;
   vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.rb-baseline {
+  position: absolute;
+  bottom: 23px;
+  left: 0;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
   body {
     font-size: 0.9em;
+  }
+
+  .rb-title {
+    font-size: 7.25rem;
+    line-height: 0.9;
   }
 
   .container {
@@ -72,6 +87,11 @@
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1023px) {
+  .rb-title {
+    font-size: 7.25rem;
+    line-height: 0.9;
+  }
+
   .column-left img {
     width: 80%;
   }
@@ -118,6 +138,10 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .hide-small {
+    display: none;
+  }
+
   .column-left,
   .column-right {
     float: none;
