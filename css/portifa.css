@@ -125,7 +125,21 @@ ul, li {
 }
 
 .rb-social-icon {
-  margin-right: 6px;
+  padding-left: 25px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.rb-social-icon--fb {
+  background-image: url('../img/linkedin.svg');
+}
+
+.rb-social-icon--bh {
+  background-image: url('../img/behance.svg');
+}
+
+.rb-social-icon--db {
+  background-image: url('../img/dribbble.svg');
 }
 
 .slide-globo {

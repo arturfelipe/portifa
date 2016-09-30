@@ -137,11 +137,20 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .hide-small {
     display: none;
   }
+  .slide-home .column-4 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .rb-title {
+    font-size: 7.00rem;
+  }
+}
 
+@media only screen and (max-width: 640px) {
   .column-left,
   .column-right {
     float: none;
